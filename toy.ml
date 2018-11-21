@@ -1,5 +1,5 @@
 let main () =
-  let _ = Codegen.context in
+  let _ = Codegen.the_context in
   
   (* Install standard binary operators.
    * 1 is the lowest precedence. *)

@@ -1,2 +1,2 @@
 all:
-	ocamlbuild -use-ocamlfind -package llvm toy.native
+	ocamlbuild -use-ocamlfind -package llvm -package llvm.analysis toy.native
